@@ -6,7 +6,7 @@
 html,
 body {
   height: 100%;
-  touch-action: none;
+  touch-action: none; /*브라우저가 처리할 터치 액션 지정*/
 }
 
 body {
@@ -40,7 +40,6 @@ body {
   position: absolute;
   left: 0;
   top: 0;
-
   width: 100%;
   height: 100%;
   line-height: 200px;
